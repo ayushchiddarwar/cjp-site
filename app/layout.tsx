@@ -4,10 +4,20 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Chiddarwar Jewellers — Purity & Trust Since 2002",
   description: "Premium jewellery in Pusad. 916 hallmark guarantee, exquisite variety, heartfelt service.",
+  keywords: [
+    "Chiddarwar Jewellers",
+    "gold jewellery",
+    "Pusad",
+    "916 hallmark",
+    "silver ornaments"
+  ],
   openGraph: {
     title: "Chiddarwar Jewellers",
     description: "Purity & Trust Since 2002",
     type: "website"
+  },
+  alternates: {
+    canonical: "https://chiddarwarjewellers.com"
   }
 };
 
