@@ -13,7 +13,7 @@ export default function Contact(){
             width="100%" height="360" style={{border:0}} loading="lazy"></iframe>
         </div>
       </section>
-      <a href="https://wa.me/91XXXXXXXXXX"
+      <a href="https://wa.me/917888047331"
          className="fixed bottom-5 right-5 px-5 py-3 rounded-full bg-maroon text-ivory shadow-soft">WhatsApp Us</a>
     </main>
   )

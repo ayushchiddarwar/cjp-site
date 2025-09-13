@@ -15,6 +15,6 @@
 
 ## Customize
 - Replace `/public/hero.jpg` and images in `/public/collections/` with real photos.
-- Update WhatsApp number (search for `91XXXXXXXXXX`).
+- WhatsApp number set to `917888047331`.
 - Edit copy in `app` pages.
 - Colors live in `tailwind.config.ts`.

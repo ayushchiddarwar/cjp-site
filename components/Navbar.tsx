@@ -9,7 +9,7 @@ export default function Navbar() {
           ))}
         </nav>
         <div className="flex items-center gap-3">
-          <a href="https://wa.me/91XXXXXXXXXX" className="px-4 py-2 rounded-full bg-maroon text-ivory text-sm hover:opacity-90">WhatsApp</a>
+            <a href="https://wa.me/917888047331" className="px-4 py-2 rounded-full bg-maroon text-ivory text-sm hover:opacity-90">WhatsApp</a>
         </div>
       </div>
     </header>
