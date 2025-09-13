@@ -1,17 +1,17 @@
-import Navbar from "@/components/Navbar";
+"use client";
 
-export default function About(){
+import Navbar from "@/components/Navbar";
+import { useI18n } from "@/lib/i18n";
+
+export default function About() {
+  const { t } = useI18n();
   return (
     <main>
       <Navbar />
       <section className="container py-16">
-        <h1 className="h1">About Us</h1>
-        <p className="p mt-6 max-w-3xl">
-          Founded by Bhagwat Chiddarwar in 2002, we brought 916 hallmark purity to Pusad,
-          introduced diamonds in 2012, and hosted the city’s first diamond exhibition in 2014
-          with a car as the grand prize. We continue to serve with trust, craftsmanship, and care.
-        </p>
+        <h1 className="h1">{t("about.title")}</h1>
+        <p className="p mt-6 max-w-3xl">{t("about.body")}</p>
       </section>
     </main>
-  )
+  );
 }
