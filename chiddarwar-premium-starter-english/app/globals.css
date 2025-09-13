@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600&family=Inter:wght@400;500;600&display=swap');
+
+:root {
+  --bg: #FFF7E6;
+  --ink: #2B2B2B;
+}
+
+* { box-sizing: border-box; }
+html, body { padding:0; margin:0; background: var(--bg); color: var(--ink); }
+
+.h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 5vw, 56px); letter-spacing:.3px }
+.h2 { font-family: 'Playfair Display', serif; font-size: clamp(24px, 3.6vw, 40px) }
+.p  { font-family: Inter, system-ui; line-height:1.7 }
+.gold-gradient { background: linear-gradient(90deg,#D6B25E,#F1D48B,#C9A227); -webkit-background-clip:text; color:transparent }
+.link { text-underline-offset: 3px }
+.container { @apply mx-auto max-w-6xl px-6; }
